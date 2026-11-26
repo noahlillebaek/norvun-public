@@ -10,7 +10,7 @@ Norvun's intelligence ecosystem is designed around three complementary perspecti
 | Economic Intelligence | How is an industry or company connected to the real economy? |
 | Capital Flow Intelligence | What can dated ownership and capital-position evidence establish? |
 
-The target architecture brings company-level evidence, economic context and capital-market observations into a connected intelligence ecosystem.
+Norvun Core is the intended integration and synthesis layer, bringing company-level evidence, economic context and capital-market observations into a connected intelligence ecosystem.
 
 ## Engineering principles
 

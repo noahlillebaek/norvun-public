@@ -52,13 +52,13 @@ This research overview presents selected mathematical frameworks and validation 
 
 ## From inference to intelligence.
 
-The value of an analytical model extends beyond its immediate output. Within Norvun's intended architecture, economic state estimates can contribute to Economic Intelligence, alongside other analytical outputs. Financial Intelligence, Economic Intelligence and Capital Flow Intelligence provide complementary inputs to a broader analytical framework.
+The value of an analytical model extends beyond its immediate output. Within Norvun's intended architecture, economic state estimates can contribute to Economic Intelligence, alongside other analytical outputs. Financial Intelligence, Economic Intelligence and Capital Flow Intelligence provide complementary inputs to Norvun Core, the intended integration and synthesis layer.
 
 <p align="center"><img src="assets/connected-intelligence.svg" alt="Conceptual flow from statistical inference into Economic Intelligence, and from three intelligence products into a common analytical framework" width="900"></p>
 
 $\mathcal J_t=F(\mathbf f_t,\mathbf e_t,\mathbf c_t)$
 
-Here, $\mathbf f_t$, $\mathbf e_t$ and $\mathbf c_t$ represent financial, economic and capital-flow intelligence respectively. The abstract function $F$ represents their intended integration into a combined analytical output $\mathcal J_t$.
+Here, $\mathbf f_t$, $\mathbf e_t$ and $\mathbf c_t$ represent financial, economic and capital-flow intelligence respectively. The abstract function $F$ represents their intended integration through Norvun Core into a combined analytical output $\mathcal J_t$.
 
 *Conceptual representation of the intended architecture; not a disclosure of the integration function or a claim of operational cross-product integration.*
 

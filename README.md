@@ -1,4 +1,4 @@
-<p><strong>NORVUN / FINANCIAL INTELLIGENCE</strong></p>
+<p><strong>NORVUN / INTELLIGENCE INFRASTRUCTURE</strong></p>
 
 # Intelligence for a world that doesn't stand still.
 
