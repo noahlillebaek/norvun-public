@@ -22,6 +22,10 @@ Norvun is building an integrated intelligence ecosystem across financial stateme
 
 Can an unobserved economic regime be inferred from the information available at a particular point in time?
 
+The research presented here represents a selected application of statistical inference within Norvun's Economic Intelligence product — one component of a broader intelligence ecosystem spanning corporate fundamentals, global economic relationships, capital movements and investment research.
+
+This showcase examines a single research problem: the probabilistic estimation of economic states and their evolution over time.
+
 ![Conceptual statistical research workflow; no forecast or actual observations](assets/research-framework.svg)
 
 Norvun's U.S. business-cycle research examines latent-state inference, regime transitions and duration uncertainty, with retrospective point-in-time evaluation and competing benchmarks.

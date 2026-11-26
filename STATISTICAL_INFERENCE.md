@@ -6,6 +6,10 @@
 
 **How can an economy's unobserved state be inferred from incomplete, temporally dependent evidence?**
 
+The research presented here represents a selected application of statistical inference within Norvun's Economic Intelligence product — one component of a broader intelligence ecosystem spanning corporate fundamentals, global economic relationships, capital movements and investment research.
+
+This showcase examines a single research problem: the probabilistic estimation of economic states and their evolution over time.
+
 Norvun's U.S. business-cycle research examines this question through competing statistical approaches, historical release vintages and retrospective evaluation. The research separates state estimation, transition uncertainty and the assessment of predictive probabilities.
 
 ![Conceptual statistical research workflow; no forecast or actual observations](assets/research-framework.svg)
