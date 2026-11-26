@@ -1,0 +1,43 @@
+
+/* Institutional research note: a single, uninterrupted editorial reading column. */
+html.note-document{scroll-snap-type:none;scroll-padding-top:90px}
+.note-document body{font-size:16px;line-height:1.72}
+.note-shell{max-width:1000px;margin:0 auto;padding-inline:clamp(22px,4vw,60px)}
+.note-header{position:sticky;top:0;z-index:10;background:#030405;border-bottom:1px solid var(--line)}
+.note-header-inner{display:flex;align-items:center;min-height:72px;gap:18px}
+.note-edition,.note-kicker,.note-meta{font:11px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.075em;color:#a1a5a9}
+.note-edition{border-left:1px solid var(--line);padding-left:18px}
+.note-website{margin-left:auto;font-size:13px;white-space:nowrap;color:#b8bdc1}
+.note{padding:clamp(44px,6vw,80px) 0 42px}
+.note-title{padding:0 0 30px;border-bottom:1px solid #36393b}
+.note-kicker{margin:0 0 18px}
+.note-title h1{font-weight:550;font-size:clamp(38px,5vw,64px);line-height:1.13;letter-spacing:-.045em;margin:0 0 16px}
+.note-subtitle{font-size:clamp(19px,2vw,25px);line-height:1.5;color:#b8bdc1;max-width:65ch;margin:0 0 24px}
+.note-meta{margin:0;letter-spacing:.025em;color:#969ba0}
+.note-section{padding-top:32px;scroll-margin-top:12px}
+.note-section h2{font-size:clamp(23px,2.6vw,32px);font-weight:550;letter-spacing:-.028em;line-height:1.25;margin:0 0 15px}
+.note-section p{color:#c2c6c9;margin:12px 0;max-width:80ch}
+.note-section p strong{color:#e9ebed;font-weight:550}
+.note-section .note-research-question{font-size:clamp(18px,1.9vw,23px);line-height:1.5;color:#e9ebed}
+.note-question{margin:26px 0 32px;scroll-margin-top:12px}
+.note-question:last-child{margin-bottom:0}
+.note-question h3{font-size:clamp(17px,1.7vw,21px);font-weight:550;letter-spacing:-.015em;line-height:1.4;margin:0 0 8px;color:#f0f1f2}
+.note-question h3 span{color:#a1a5a9;font-weight:400}
+.note-question .equation{margin:13px 0 16px;padding:18px 8px;background:none;border:none;grid-template-columns:minmax(0,1fr) 32px}
+.note-question .equation math{font-size:clamp(23px,3vw,31px)}
+.note-question .math-scroll{padding:10px 0}
+.note-question .eq-number{color:#a1a5a9;text-align:right}
+.note-figure{max-width:780px;margin:28px auto 22px}
+.note-figure img{display:block;width:100%;height:auto}
+.note-figure figcaption{color:#a1a5a9;font-size:12px;line-height:1.5;margin:10px 0 0;text-align:center}
+.note-section .flow-note{font-size:13px;color:#a1a5a9}
+.note-section .note-link{margin:26px 0 0;padding-top:18px;border-top:1px solid var(--line)}
+.note-link a{font-weight:550;color:#f0f1f2}
+.note-link a:hover,.note-footer a:hover{text-decoration:underline;text-underline-offset:4px}
+.note-footer{border-top:1px solid var(--line);padding:24px 0 36px;color:#a1a5a9;font-size:12px}
+.note-footer-top{display:flex;justify-content:space-between;align-items:baseline;gap:18px;flex-wrap:wrap}
+.note-footer nav{display:flex;gap:12px 20px;flex-wrap:wrap}
+.note-footer p{margin:15px 0 0;line-height:1.65;max-width:100ch}
+.note-footer p a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:600px){.note-edition{display:none}.note-header-inner{min-height:62px}.note{padding-top:36px}.note-title{padding-bottom:24px}.note-section{padding-top:27px}.note-document body{font-size:15px;line-height:1.72}.note-question h3 span{display:block;margin-top:3px}.note-question .equation{padding:10px 0;gap:5px;grid-template-columns:minmax(0,1fr) 23px}.note-question .equation math{font-size:22px}.note-question{margin:22px 0 27px}.note-figure{margin:20px 0}.note-figure figcaption{text-align:left}}
+@media print{html.note-document{color-scheme:light;scroll-snap-type:none}.note-document body,.note-header{background:white;color:#111}.note-header{position:static}.note-title h1,.note-section h2,.note-question h3,.note-section p,.note-section .note-research-question,.note-question .equation math{color:#111}.note-title,.note-section .note-link,.note-footer{border-color:#ccc}.note-header .brand img{mix-blend-mode:normal}.note-question,.note-figure{break-inside:avoid}.note-subtitle,.note-kicker,.note-meta,.note-edition,.note-footer,.note-website,.note-question h3 span{color:#444}}
