@@ -22,6 +22,23 @@ header{padding-inline:max(20px,calc((100vw - 1440px)/2 + 20px))}
   .md table{display:block;overflow-x:auto}
 }
 
+
+/* Conceptual integrated intelligence diagram */
+.connected-flow{padding:20px 16px 24px;background:#f6f8fa;border:1px solid #d8dee4;border-radius:9px;margin:22px 0;text-align:center}
+.flow-node{background:white;border:1px solid #c7d0db;border-radius:8px;padding:16px 10px;min-width:0;display:flex;flex-direction:column;gap:5px;justify-content:center;align-items:center}
+.flow-node strong{font-size:15px;line-height:1.35;color:#243950}
+.flow-node small{font-size:13px;color:#526477}
+.flow-start,.flow-end{background:#e9f1fb;border-color:#96b4d5;width:fit-content;max-width:100%;margin-inline:auto;padding-inline:26px}
+.flow-start .flow-math,.flow-end .flow-math{font:21px/1.4 Georgia,serif;color:#243950}
+.flow-arrow{font-size:22px;line-height:1.4;color:#72869c;padding:4px 0}
+.flow-products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.flow-products .economic{border:2px solid #96b4d5}
+.flow-merge{width:66.666%;height:35px;position:relative;margin:auto;border-bottom:1.5px solid #72869c;border-left:1.5px solid #72869c;border-right:1.5px solid #72869c}
+.flow-merge:after{content:"";height:35px;position:absolute;left:50%;top:0;border-left:1.5px solid #72869c}
+.flow-cta{display:inline-flex;align-items:center;gap:12px;border:1px solid #b8c9dc;border-radius:7px;background:#f0f6fc;color:#0969da;padding:12px 18px;font-weight:600;max-width:100%;text-align:left}
+.flow-cta:hover{background:#e3effb;text-decoration:none}
+.flow-note{color:#57606a;font-size:12px}
+@media(max-width:540px){.connected-flow{padding:15px 7px 18px}.flow-products{gap:5px}.flow-node{padding:10px 4px}.flow-node strong{font-size:11px;overflow-wrap:anywhere}.flow-node small{font-size:10px}.flow-start,.flow-end{padding:12px 14px}.flow-start strong,.flow-end strong{font-size:14px}.flow-start .flow-math,.flow-end .flow-math{font-size:19px}}
 </style></head><body><header><span class="brand">Norvun · Research portfolio</span><span class="headerlinks"><a href="https://norvun.world">Norvun</a></span></header><main class="page"><div class="repotitle">noahlillebaek / <strong>norvun-public</strong></div><p class="description">Building the intelligence infrastructure for the next generation of finance.</p><div class="layout"><aside class="side"><h3>Repository files</h3><a href="#readme">README.md</a><a href="#statistical_inference">STATISTICAL_INFERENCE.md</a><a href="#architecture">ARCHITECTURE.md</a><a href="#evidence">EVIDENCE.md</a><a href="#notice">NOTICE.md</a></aside><div><article class="panel" id="readme"><div class="filebar">README.md</div><div class="md"><p><strong>NORVUN / FINANCIAL INTELLIGENCE</strong></p>
 <h1>Intelligence for a world that doesn't stand still.</h1>
 <p><strong>The financial world is interconnected. The systems used to understand it often aren't.</strong></p>
@@ -74,6 +91,18 @@ header{padding-inline:max(20px,calc((100vw - 1440px)/2 + 20px))}
 <p>Does additional model complexity improve probability estimation, or does it introduce unnecessary estimation risk? The bias–variance trade-off provides a statistical lens for this question: greater flexibility may reduce some forms of systematic error but increase estimation variability. The research compares statistical approaches rather than presuming a more complex model is better. Probability scores and turning-point detection address different objectives.</p>
 <p><strong>Validation matters as much as estimation.</strong> Dated information sets, release-aware reference labels and retrospective out-of-sample evaluation address look-ahead risk. Serial dependence means successive observations cannot generally be treated as independent and identically distributed (iid). Overlapping horizons, limited independent recession episodes and model-selection effects constrain interpretation. Software tests and statistical performance are separate forms of evidence.</p>
 <p>This research overview presents selected mathematical frameworks and validation principles. Detailed evaluation results, model specifications and current regime estimates remain proprietary.</p>
+<h2>From inference to intelligence.</h2>
+<p>The value of an analytical model extends beyond its immediate output. Within Norvun's intended architecture, economic state estimates can contribute to Economic Intelligence, alongside other analytical outputs. Financial Intelligence, Economic Intelligence and Capital Flow Intelligence provide complementary inputs to a broader analytical framework.</p>
+<div class="connected-flow" role="group" aria-label="Conceptual integration of statistical inference and three intelligence products">
+<div class="flow-node flow-start"><strong>Statistical Inference</strong><span class="flow-math">P(Sₜ = s | ℐₜ)</span><small>Economic state estimation</small></div>
+<div class="flow-arrow" aria-hidden="true">↓</div>
+<div class="flow-products"><div class="flow-node"><strong>Financial Intelligence</strong><small>Company fundamentals · fₜ</small></div><div class="flow-node economic"><strong>Economic Intelligence</strong><small>Economic conditions · eₜ</small></div><div class="flow-node"><strong>Capital Flow Intelligence</strong><small>Capital movements · cₜ</small></div></div>
+<div class="flow-merge" aria-hidden="true"></div><div class="flow-arrow" aria-hidden="true">↓</div>
+<div class="flow-node flow-end"><strong>Integrated Financial Intelligence</strong><span class="flow-math">𝒥ₜ = F(fₜ, eₜ, cₜ)</span></div>
+</div>
+<p>Here, <i>fₜ</i>, <i>eₜ</i> and <i>cₜ</i> represent financial, economic and capital-flow intelligence respectively. The abstract function <i>F</i> represents their intended integration into a combined analytical output <i>𝒥ₜ</i>.</p>
+<p class="flow-note">Conceptual representation of the intended architecture; not a disclosure of the integration function or a claim of operational cross-product integration.</p>
+<p><a class="flow-cta" href="https://norvun.world/index.html#intelligence">Explore Norvun's intelligence ecosystem <span aria-hidden="true">↗</span></a></p>
 <p><a href="#evidence">Research standards and limitations</a> · <a href="#notice">Disclosure</a></p>
 </div></article><article class="panel" id="architecture"><div class="filebar">ARCHITECTURE.md</div><div class="md"><h1>Architecture &amp; Research</h1>
 <p><a href="#readme">← Norvun overview</a></p>

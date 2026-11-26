@@ -50,4 +50,18 @@ Does additional model complexity improve probability estimation, or does it intr
 
 This research overview presents selected mathematical frameworks and validation principles. Detailed evaluation results, model specifications and current regime estimates remain proprietary.
 
+## From inference to intelligence.
+
+The value of an analytical model extends beyond its immediate output. Within Norvun's intended architecture, economic state estimates can contribute to Economic Intelligence, alongside other analytical outputs. Financial Intelligence, Economic Intelligence and Capital Flow Intelligence provide complementary inputs to a broader analytical framework.
+
+![Conceptual flow from statistical inference into Economic Intelligence, and from three intelligence products into a common analytical framework](assets/connected-intelligence.svg)
+
+$\mathcal J_t=F(\mathbf f_t,\mathbf e_t,\mathbf c_t)$
+
+Here, $\mathbf f_t$, $\mathbf e_t$ and $\mathbf c_t$ represent financial, economic and capital-flow intelligence respectively. The abstract function $F$ represents their intended integration into a combined analytical output $\mathcal J_t$.
+
+*Conceptual representation of the intended architecture; not a disclosure of the integration function or a claim of operational cross-product integration.*
+
+**[Explore Norvun's intelligence ecosystem →](https://norvun.world/index.html#intelligence)**
+
 [Research standards and limitations](EVIDENCE.md) · [Disclosure](NOTICE.md)
