@@ -54,7 +54,7 @@ This research overview presents selected mathematical frameworks and validation 
 
 The value of an analytical model extends beyond its immediate output. Within Norvun's intended architecture, economic state estimates can contribute to Economic Intelligence, alongside other analytical outputs. Financial Intelligence, Economic Intelligence and Capital Flow Intelligence provide complementary inputs to a broader analytical framework.
 
-![Conceptual flow from statistical inference into Economic Intelligence, and from three intelligence products into a common analytical framework](assets/connected-intelligence.svg)
+<p align="center"><img src="assets/connected-intelligence.svg" alt="Conceptual flow from statistical inference into Economic Intelligence, and from three intelligence products into a common analytical framework" width="900"></p>
 
 $\mathcal J_t=F(\mathbf f_t,\mathbf e_t,\mathbf c_t)$
 
