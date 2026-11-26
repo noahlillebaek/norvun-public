@@ -1,0 +1,48 @@
+
+/* Concise, linear research brief; full publications retain their separate layout. */
+html.brief-document{scroll-padding-top:85px;scroll-snap-type:none}
+.brief-document body{font-size:16px;line-height:1.65}
+.brief-shell{width:min(100%,1120px);padding-inline:clamp(20px,4vw,56px);margin-inline:auto}
+.brief-header{background:var(--bg);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+.brief-header-inner{display:flex;align-items:center;gap:18px;min-height:72px}
+.brief-edition,.brief-overline{font:11px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.09em;color:#a1a5a9}
+.brief-edition{border-left:1px solid var(--line);padding-left:18px}
+.brief-external{margin-left:auto;color:#b8bdc1;font-size:13px;white-space:nowrap}
+.brief-section{padding:clamp(28px,4vw,48px) 0;border-bottom:1px solid var(--line)}
+.brief-opening{padding-top:clamp(36px,5vw,64px)}
+.brief-section h1,.brief-section h2,.brief-section h3{color:var(--text);font-weight:550;letter-spacing:-.035em;line-height:1.15}
+.brief-section h1{font-size:clamp(36px,4.8vw,66px);max-width:980px;margin:14px 0 20px}
+.brief-section h2{font-size:clamp(27px,3.25vw,42px);margin:12px 0 16px}
+.brief-section h3{font-size:19px;letter-spacing:-.02em;margin:0 0 6px}
+.brief-section p{color:#b8bdc1;max-width:78ch;margin:10px 0}
+.brief-section p.brief-lead{font-size:clamp(17px,1.6vw,21px);line-height:1.5;color:#d0d3d6;max-width:75ch}
+.brief-network{display:block;width:100%;height:clamp(92px,15vw,168px);object-fit:cover;object-position:center;filter:grayscale(1);opacity:.85;mask-image:linear-gradient(180deg,transparent,#000 14%,#000 86%,transparent);-webkit-mask-image:linear-gradient(180deg,transparent,#000 14%,#000 86%,transparent);margin:18px 0 12px}
+.brief-pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.brief-pillars>div{padding:16px 0 0;border-top:1px solid #414448}
+.brief-pillars h3{font-size:clamp(15px,1.6vw,19px)}
+.brief-pillars p{font-size:14px;margin:4px 0 0}
+.brief-math-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:22px}
+.math-card{background:#090a0b;border:1px solid #292b2e;border-radius:5px;padding:clamp(16px,2.1vw,24px);min-width:0}
+.math-card .eyebrow{font-size:10px;letter-spacing:.06em;display:block;margin-bottom:12px}
+.math-card h3{font-size:clamp(17px,1.9vw,22px);min-height:2.3em;margin:0}
+.math-card .equation{border:0;background:transparent;grid-template-columns:minmax(0,1fr);padding:10px 0;margin:4px 0 6px}
+.math-card .eq-number{display:none}
+.math-card math{font-size:clamp(20px,2.4vw,29px);white-space:nowrap}
+.math-card .math-scroll{padding:8px 0;min-height:64px;display:grid;align-items:center}
+.math-card p{font-size:14px;line-height:1.55;margin:0}
+.brief-section .brief-small{font-size:13px;margin:18px 0 0}
+.brief-small a,.brief-footer a{color:#d0d3d6;text-decoration:underline;text-decoration-color:#5d6266;text-underline-offset:4px}
+.brief-evaluation{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;margin:22px 0 0}
+.brief-evaluation>div{border-top:1px solid var(--line);padding:15px 0}
+.brief-evaluation dt{color:#ecedef;font-size:16px;font-weight:550}
+.brief-evaluation dd{color:#b8bdc1;font-size:14px;margin:5px 0 0;line-height:1.55}
+.brief-flow{max-width:760px;margin:24px auto;text-align:center}
+.brief-flow img{display:block;width:100%;height:auto}
+.brief-flow figcaption{font-size:12px;color:#a1a5a9;margin:10px 0 0;line-height:1.5}
+.brief-cta{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 18px;border:1px solid #414448;border-radius:5px;font-weight:550;font-size:15px;max-width:100%;background:#0b0d0e}.brief-cta:hover{background:#191b1d}
+.brief-footer{padding:22px 0 34px;color:#a1a5a9;font-size:12px}
+.brief-footer-top{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.brief-footer nav{display:flex;flex-wrap:wrap;gap:12px 20px}
+.brief-footer p{margin:16px 0 0;max-width:100ch;line-height:1.6}
+@media(max-width:720px){.brief-edition{display:none}.brief-header-inner{min-height:62px}.brief-document{scroll-padding-top:74px}.brief-section{padding-block:30px}.desktop-break{display:none}.brief-math-grid{grid-template-columns:1fr}.math-card h3{min-height:0}.math-card .math-scroll{min-height:0}.brief-pillars{gap:12px}.brief-pillars h3{overflow-wrap:anywhere}.brief-pillars p{font-size:12px}.brief-evaluation{grid-template-columns:1fr;gap:0}.brief-flow{margin:18px auto}.brief-network{height:112px}}
+@media(max-width:380px){.brief-pillars{grid-template-columns:1fr}.brief-pillars>div{padding-top:9px}.brief-pillars h3{margin:0}.brief-pillars p{margin:0}.brief-external{font-size:12px}}
+@media print{html.brief-document{color-scheme:light;scroll-snap-type:none}.brief-document body{background:#fff;color:#111}.brief-header{position:static;background:#fff}.brief-document .brief-section h1,.brief-document .brief-section h2,.brief-document .brief-section h3,.brief-document .brief-section p,.brief-document .brief-evaluation dt,.brief-document .brief-evaluation dd,.brief-document .math-card math{color:#111}.math-card{background:#fff}.brief-section,.math-card,.brief-flow{break-inside:avoid}.brief-network{display:none}.brief-external,.brief-edition,.brief-overline,.brief-footer,.brief-footer a,.brief-small a{color:#333}.brief-cta{background:#fff;color:#111}}
